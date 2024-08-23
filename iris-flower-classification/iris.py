@@ -39,9 +39,3 @@ print(f'Accuracy: {accuracy}')
 
 classifi_rep=classification_report(b_test,b_pred, target_names=label_encoder.classes_)#here we use a classification report
 print(classifi_rep)
-
-
-
-
-
-
