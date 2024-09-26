@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score,classification_report
 
 # Step 1: Data Preprocessing.
-f_path="G:\Internships\Cypher Technologies\Iris Flower Classification\Iris Flower - Iris.csv"
+f_path="Iris.csv"
 iris_df=pd.read_csv(f_path)
 
 iris_df.drop('Id',axis=1,inplace=True)#this will remove id column and modify the original dataframe
